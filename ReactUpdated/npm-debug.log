@@ -1,0 +1,35 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/bin/node',
+1 verbose cli   '/mnt/shared/sbin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   '--quiet' ]
+2 info using npm@2.14.12
+3 info using node@v4.3.1
+4 verbose install initial load of /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/package.json
+5 verbose readDependencies loading dependencies from /nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/lib/package.json
+6 silly cache add args [ '.', null ]
+7 verbose cache add spec .
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: '.',
+8 silly cache add   scope: null,
+8 silly cache add   name: null,
+8 silly cache add   rawSpec: '.',
+8 silly cache add   spec: '/home/ubuntu/workspace/ReactUpdated',
+8 silly cache add   type: 'local' }
+9 error addLocal Could not install /home/ubuntu/workspace/ReactUpdated
+10 verbose stack Error: EISDIR: illegal operation on a directory, read
+10 verbose stack     at Error (native)
+11 verbose cwd /home/ubuntu/workspace/ReactUpdated
+12 error Linux 4.9.120-c9
+13 error argv "/nix/store/ajr6i77s89gjfjm59aazc16b5rvb39n7-nodejs-4.3.1/bin/node" "/mnt/shared/sbin/npm" "install" "-g" "--quiet"
+14 error node v4.3.1
+15 error npm  v2.14.12
+16 error code EISDIR
+17 error errno -21
+18 error syscall read
+19 error eisdir EISDIR: illegal operation on a directory, read
+19 error eisdir This is most likely not a problem with npm itself
+19 error eisdir and is related to npm not being able to find a package.json in
+19 error eisdir a package you are trying to install.
+20 verbose exit [ -21, true ]
